@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="CSS/styles.css">
   <link rel="stylesheet" href="CSS/Style_forms.css">
   <link rel="stylesheet" href="CSS/styles_donuts.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 <body>
   <header>
@@ -27,19 +28,24 @@
         <h2> Introducción</h2>
         <p> Te doy la bienvenida a mi mundo digital. Soy Edison Trejos, un desarrollador web asociado con una visión fresca y soluciones innovadoras. </p>
         <p>Descubre mi trayectoria profesional y los proyectos que definen mi huella en el universo digital.</p>
-    <img src="img/introduccion.jpg" alt="img" width="700" height="200" id="img-intro">
+    <img src="img/introduccion.gif" alt="img" width="700" height="150" id="img-intro">
     </center>
     </section>
     <section id="sobre-mi">
         <center>
             <h2>Sobre Mí</h2>
-            <p>Información sobre tu experiencia, educación y habilidades.</p>
+            <p>Con 26 años y una sólida experiencia en el área comercial, mi camino profesional ha tomado un giro emocionante hacia la tecnología. 
+              Como estudiante de Ingeniería en Sistemas y participante activo en un curso Full Stack, he descubierto que mi verdadera pasión reside 
+              en la programación.
+              Mi curiosidad y entusiasmo por aprender me han llevado a adquirir conocimientos básicos en una variedad de herramientas tecnológicas, 
+              las cuales estoy ansioso por explorar más a fondo a continuación te compartiré cuales son esas herramientas y el nivel de conocimiento 
+              que tengo sobre ellas hasta este momento.</p>
         </center>
         <!-- Barras de habilidades -->
         
         <div class="donut-charts-container">
   
-            <!-- Gráfica Donut #1 -->
+            
             <div>
               <p class="chart-label">PYTHON</p>
               <div class="donut-chart" style="background: conic-gradient(#28c247 0% 75%, #c4c4c4 75%);">
@@ -48,7 +54,7 @@
               
             </div>
           
-            <!-- Gráfica Donut #2 -->
+           
             <div>
               <p class="chart-label">JAVA</p>
               <div class="donut-chart" style="background: conic-gradient(#28c247 0% 40%, #c4c4c4 40%);">
@@ -102,14 +108,18 @@
       <h2>Proyectos</h2>
       <!-- Detalles de tus proyectos aquí -->
        <br>
+       <p>estoy en la fase inicial de desarrollar mis primeros proyectos personales, que reflejan mi crecimiento y aprendizaje en el mundo del 
+        desarrollo web. Estos proyectos estarán disponibles próximamente en esta página web, donde podrás ver de primera mano mi evolución como 
+        desarrollador.</p>
+        <br>
        <img src="img/actualizando.gif" alt="Actualizando">
     </section>
     <section id="contacto">
       <h2>Contacto</h2>
 
-      <div class="container-contact100">
+      <div  class="container-contact100">
         <div class="wrap-contact100">
-            <form class="contact100-form validate-form">
+            <form id="tu-formulario" class="contact100-form validate-form">
                 <span class="contact100-form-title">
                     <strong>Contactame!</strong>
                 </span>
@@ -144,6 +154,7 @@
     <p>© 2024 - Edison Trejos</p>
   </footer>
   <a href="#top" id="back-to-top-btn" title="Volver arriba">Volver Arriba ↑</a>
-  
+  <script type="module" src="mail.js"></script>
+
 </body>
 </html>
