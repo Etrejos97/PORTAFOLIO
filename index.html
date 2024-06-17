@@ -2,12 +2,13 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi Portafolio</title>
+  <title>Mi Ejemplo</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style_forms.css">
 </head>
 <body>
   <header>
-    <img  src="img/EdisonTrejos1.jpg" alt="Tu Foto" height="210" class="zoom">
+    <img  src="img/EdisonTrejos1.jpg" alt="Tu Foto" height="210" class="zoom" >
     <h1>Bienvenido a Mi Portafolio</h1>
     <nav>
       <ul>
@@ -23,8 +24,8 @@
     <center>
         <section id="inicio">
         <h2> Introducción</h2>
-        <p> Hola, soy Edison Trejos y soy un apasionado desarrollador web.</p>
-        <p>A continuacion te mostrare un poco de mi experiencia y el camino que llevo desde que empece en este apasionante mundo!</p>
+        <p> Te doy la bienvenida a mi mundo digital. Soy Edison Trejos, un desarrollador web asociado con una visión fresca y soluciones innovadoras. </p>
+        <p>Descubre mi trayectoria profesional y los proyectos que definen mi huella en el universo digital.</p>
     <img src="img/introduccion.jpg" alt="img" width="700" height="200" id="img-intro">
     </center>
     </section>
@@ -37,19 +38,19 @@
         
         <div class="skills-container">
             <div class="skill">
-                <p>PYTHON</p>
+                <p><strong>PYTHON</strong></p>
                 <div class="skill-bar"><div class="skill-percentage" style="width: 75%;">75%</div></div>
             </div>
             <div class="skill">
-                <p>JAVA</p>
+                <p><strong>JAVA</strong></p>
                 <div class="skill-bar"><div class="skill-percentage" style="width: 30%;">30%</div></div>
             </div>
             <div class="skill">
-                <p>HTML</p>
+                <p><strong>HTML</strong></p>
                 <div class="skill-bar"><div class="skill-percentage" style="width: 40%;">40%</div></div>
             </div>
             <div class="skill">
-                <p>CSS</p>
+                <p><strong>CSS</strong></p>
                 <div class="skill-bar"><div class="skill-percentage" style="width: 40%;">40%</div></div>
             </div>
           <!-- Agrega más habilidades según sea necesario -->
@@ -59,14 +60,48 @@
     <section id="proyectos">
       <h2>Proyectos</h2>
       <!-- Detalles de tus proyectos aquí -->
+       <br>
+       <img src="img/actualizando.gif" alt="Actualizando">
     </section>
     <section id="contacto">
       <h2>Contacto</h2>
+
+      <div class="container-contact100">
+        <div class="wrap-contact100">
+            <form class="contact100-form validate-form">
+                <span class="contact100-form-title">
+                    <strong>Contactame!</strong>
+                </span>
+    
+                <div class="wrap-input100 validate-input" data-validate="Por favor ingresa tu nombre">
+                    <input class="input100" type="text" name="name" placeholder="Nombre completo" required>
+                    <span class="focus-input100"></span>
+                </div>
+    
+                <div class="wrap-input100 validate-input" data-validate="Por favor ingresa tu correo: e@a.x">
+                    <input class="input100" type="text" name="email" placeholder="Correo" required>
+                    <span class="focus-input100"></span>
+                </div>
+    
+                <div class="wrap-input100 validate-input" data-validate="Por favor ingresa tu mensaje">
+                    <textarea class="input100" name="message" placeholder="Tú mensaje" required></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+    
+                <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
       
     </section>
   </main>
   <footer>
     <p>© 2024 - Edison Trejos</p>
   </footer>
+  <a href="#top" id="back-to-top-btn" title="Volver arriba">Volver Arriba ↑</a>
 </body>
 </html>
