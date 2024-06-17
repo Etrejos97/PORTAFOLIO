@@ -1,0 +1,22 @@
+.donut-charts-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .donut-chart {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+  }
+  .center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+  .chart-label {
+    text-align: center;
+  }

@@ -2,9 +2,10 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi Ejemplo</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="style_forms.css">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/Style_forms.css">
+  <link rel="stylesheet" href="CSS/styles_donuts.css">
 </head>
 <body>
   <header>
@@ -36,25 +37,65 @@
         </center>
         <!-- Barras de habilidades -->
         
-        <div class="skills-container">
-            <div class="skill">
-                <p><strong>PYTHON</strong></p>
-                <div class="skill-bar"><div class="skill-percentage" style="width: 75%;">75%</div></div>
+        <div class="donut-charts-container">
+  
+            <!-- Gráfica Donut #1 -->
+            <div>
+              <p class="chart-label">PYTHON</p>
+              <div class="donut-chart" style="background: conic-gradient(#28c247 0% 75%, #c4c4c4 75%);">
+                <div class="center-text">75%</div>
+              </div>
+              
             </div>
-            <div class="skill">
-                <p><strong>JAVA</strong></p>
-                <div class="skill-bar"><div class="skill-percentage" style="width: 30%;">30%</div></div>
+          
+            <!-- Gráfica Donut #2 -->
+            <div>
+              <p class="chart-label">JAVA</p>
+              <div class="donut-chart" style="background: conic-gradient(#28c247 0% 40%, #c4c4c4 40%);">
+                <div class="center-text">40%</div>
+              </div>
+              
             </div>
-            <div class="skill">
-                <p><strong>HTML</strong></p>
-                <div class="skill-bar"><div class="skill-percentage" style="width: 40%;">40%</div></div>
-            </div>
-            <div class="skill">
-                <p><strong>CSS</strong></p>
-                <div class="skill-bar"><div class="skill-percentage" style="width: 40%;">40%</div></div>
-            </div>
-          <!-- Agrega más habilidades según sea necesario -->
-        </div>
+
+            <div>
+                <p class="chart-label">HTML</p>
+                <div class="donut-chart" style="background: conic-gradient(#28c247 0% 50%, #c4c4c4 50%);">
+                  <div class="center-text">50%</div>
+                </div>
+                
+              </div>
+            
+              <div>
+                <p class="chart-label">CSS</p>
+                <div class="donut-chart" style="background: conic-gradient(#28c247 0% 50%, #c4c4c4 50%);">
+                  <div class="center-text">50%</div>
+                </div>
+                
+              </div>
+              <div>
+                <p class="chart-label">JAVASCRIPT</p>
+                <div class="donut-chart" style="background: conic-gradient(#28c247 0% 30%, #c4c4c4 30%);">
+                  <div class="center-text">30%</div>
+                </div>
+                
+              </div>
+              <div>
+                
+                <p class="chart-label">SQL SERVER</p>
+                <div class="donut-chart" style="background: conic-gradient(#28c247 0% 50%, #c4c4c4 50%);">
+                  <div class="center-text">50%</div>
+                </div>
+                
+              </div>
+              <div>
+                <p class="chart-label">H. BLANDAS</p>
+                <div class="donut-chart" style="background: conic-gradient(#28c247 0% 80%, #c4c4c4 80%);">
+                  <div class="center-text">80%</div>
+                </div>
+                
+              </div>
+              
+          </div>
         
     </section>
     <section id="proyectos">
@@ -103,5 +144,6 @@
     <p>© 2024 - Edison Trejos</p>
   </footer>
   <a href="#top" id="back-to-top-btn" title="Volver arriba">Volver Arriba ↑</a>
+  
 </body>
 </html>

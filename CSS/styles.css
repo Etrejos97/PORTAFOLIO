@@ -4,15 +4,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url('img/fondo2.jpg');
+  background-image: url('../img/fondo2.jpg');
   background-size: cover;
-  
 }
 header{
   color: black;
   text-align: center;
   padding: 1em 0;
-  background-image: url('img/banner1.jpg');
+  background-image: url('../img/banner1.jpg');
   background-size: cover; /* Asegura que la imagen cubra todo el ancho del header */
   background-position: center; /* Centra la imagen en el header */
   height: 300px; /* Establece la altura del header */
@@ -79,7 +78,7 @@ section {
   margin-bottom: 8px;
   margin-top: 50px;
   border: 1px solid #000;
-  background-image: url('img/fondo.jpg');
+  background-image: url('../img/fondo.jpg');
   background-size: cover; /* Asegura que la imagen cubra toda la sección */
   background-position: center; /* Centra la imagen en la sección */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
